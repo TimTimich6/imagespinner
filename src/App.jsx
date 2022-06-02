@@ -41,7 +41,7 @@ function App() {
           ref={imageRef}
           className={cl.image}
           onClick={upload}
-          style={{ animation: `${(slider / 100) * 1.5}s linear 0s normal none infinite App_spin__ZoOyu` }}
+          style={{ animation: `${(slider / 100) * 1.5}s linear 0s normal none infinite ${cl.spin}` }}
         />
       )}
       {loading && <Loader />}
