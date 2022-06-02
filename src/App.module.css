@@ -1,0 +1,30 @@
+.App {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #7482bc;
+  justify-content: center;
+  gap: 5rem;
+}
+.button {
+  font-size: 2.3rem;
+  white-space: nowrap;
+  background-color: #a8d0e6;
+  color: white;
+}
+.image {
+  max-width: 70%;
+  max-height: 20rem;
+}
+.slider {
+  width: 10rem;
+}
+@keyframes spin {
+  from {
+    transform: rotateY(0deg);
+  }
+  to {
+    transform: rotateY(360deg);
+  }
+}
